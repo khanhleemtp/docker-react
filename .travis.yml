@@ -6,4 +6,4 @@ before_install:
   - docker build -t khanhleemtp/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run khanhleemtp/docker-react yarn coverage
+  - docker run khanhleemtp/docker-react yarn test
